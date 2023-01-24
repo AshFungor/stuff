@@ -38,7 +38,7 @@ int main(void){
             cout << "row is " << row << " column is " << column << " value is " << (rows[row][column] = row * column) << endl;
         }
 
-    delete[] rows[row];
+        delete[] rows[row];
 
     }
 
