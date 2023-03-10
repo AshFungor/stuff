@@ -1,10 +1,10 @@
-.PHONY = clean
+.PHONY = clean debug
 
-example : example.cpp bin-search-tree.cpp
-	g++ example.cpp bin-search-tree.cpp -o example
+example : example.cpp binary-heap.cpp
+	g++ example.cpp binary-heap.cpp -o example
 
 debug:
-	g++ -g example.cpp bin-search-tree.cpp -o example
+	g++ -g example.cpp binary-heap.cpp -o example
 
 clean:
 	rm example
